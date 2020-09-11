@@ -1,0 +1,277 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+
+/* ----- CSS HEADER ----- */
+header {
+    background-image: url(/images/holiday.jpeg);
+    background-repeat: no-repeat; 
+    background-size: 100%;
+}
+
+h1.chu{
+    line-height:225px;
+    font-size: 30px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    font-family: monospace;
+    font-size: 90px;
+    color: black;
+    animation: doimauchunen 1s infinite;   
+}
+
+@keyframes doimauchunen {
+    from {
+        text-shadow: 5px 5px white;
+    }
+    to {
+        text-shadow: 5px 5px yellow;
+    }
+}
+
+/* ----- CSS NAV ----- */
+
+nav#nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+ul.menu1 {
+    text-align: center;
+    font-weight: bold;
+   
+    font-size:22px;
+    box-shadow:1px 2px 3px black;
+    list-style-type: none;
+    display: flex;
+    width: 100%;
+    margin-top: 10px;
+    margin: 0;
+    padding: 0;
+}
+ul.menu1 > li {
+    width : 25%;
+    border-right:2px solid black;
+    text-align: center;
+    font-weight:bold;
+    background-image: linear-gradient(to right, rgb(255, 162, 178), rgb(243, 189, 11));
+}
+ul.menu1 > li:last-child {
+    border-right:none;
+}
+ul.menu1 > li > a {
+    display : block;
+    padding: 15px 20px;
+    color : black;
+    text-decoration: none;
+    font-size: 25px;
+}
+ul.menu1 > li > a:hover {
+    background-image: linear-gradient(to right, rgb(243, 220, 11), rgb(121, 207, 233));
+    text-decoration:none;
+}
+ul.mien a {
+    text-decoration: none;
+}
+ul.mien > li {
+    list-style-type : none;
+}
+.mien{
+    width: 24.5%;
+    display: none !important;
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.5s;
+}
+.amthuc:hover .mien {
+    display: block !important;
+    opacity: 1;
+    visibility: visible;
+}
+ul.mien{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+ul.mien > li {
+    text-align: center;
+    background-color:white;
+}
+ul.mien >li > a {
+    display: block;
+    padding: 4px 17px;
+    color: black;
+}
+ul.mien >li >a:hover{
+    background-image: linear-gradient(to right, rgba(255, 192, 203, 0.534), #c6e4eb);
+    text-decoration: none;
+    font-size: 2vw;
+ }
+
+
+ /*----- CSS SECTION ----- */
+
+div.content {
+    display: flex;
+}
+div.right{
+    width: 20%;
+    padding-left: 20px;
+    position:fixed;
+    top: 30%;
+    left: 81%;
+    background-color: rgba(255, 182, 193, 0.13);
+    
+    
+}
+div.left{
+    width: 80%;
+    margin:0 20px;
+    display: flex;
+    flex-wrap: wrap; 
+    padding : 0 2%;
+}
+div.left > p {
+    margin: 68px;
+}
+
+
+/* ----- LEFT ---- */
+div.tethoi {
+    border: 2px dashed black;
+    padding : 0 20px;
+    border-radius: 5px;
+    background-color: rgba(255, 182, 193, 0.13);
+}
+div.tethoi > img {
+    width: 80%;
+    margin-left: 10%;
+}
+h1 {
+    color: red;
+    font-size: 35px;
+}
+
+.h2 {
+    font-size: 25px;
+    color: blue;
+    text-align: center;
+    width:100%;
+    display: block; 
+    text-transform: uppercase;
+}
+.h3 {
+    width: 100%;
+    text-transform: uppercase;
+    margin: 10px 0;
+}
+div.crazy {
+    display : flex;
+    margin-bottom: 20px;
+}
+div.crazy > p {
+   padding: 0 30px;
+}
+div.crazy > img {
+    width: 20%;
+}
+.h4 {
+   color: rgb(41, 184, 41);
+   margin:0;
+}
+
+
+ /* ----- RIGHT ----- */
+ 
+ div.right h3 {
+     padding-top: 12.99px;
+     float: left;
+     margin:0;
+     margin-right: 10px;
+ }
+ div.right > p {
+     font-size: 17px;
+     color: blue;
+ }
+ div.right a {
+    text-decoration: none;
+    font-size: 17px;
+    color: black;
+ }
+ div.right a:hover {
+     color:blue;
+     font-weight: bold;
+ }
+
+
+ /* ----- GO TO TOP ----- */
+
+ #a {
+    display: block;
+    padding:1px 10px;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    color: black;
+    text-decoration: none;
+    font-size: 25px;
+    text-align: center;
+    animation: doimaunen 1s infinite;
+}
+
+
+ /* ----- CSS FOOTER ----- */
+
+ footer{
+    margin-top: 70px;
+    background-image: url(/images/bk-lh.jpg);
+    padding-top:30px;
+    background-repeat: no-repeat;  
+    background-size: 100%;
+    height: 240px;
+}
+
+div.contact > h4 {
+    font-weight: 25px;
+    font-size: 22px;
+    color: blue;
+    margin:0;
+
+}
+ul.social {
+    padding:0;
+}
+div.contact {
+    margin-left: 45%;
+}
+ul.social > li  {
+    list-style-type: none;
+    font-weight: bold;
+    
+}
+ul.social > li a {
+    color: black;
+    text-decoration:none;
+}
+ul.social > li a:hover {
+    color: red;
+}
+
+@keyframes doimaunen {
+    from {
+        background-color: gold;
+    }
+    to {
+        background-color: rgb(245, 55, 8);
+    }
+    to {
+        background-color: rgb(255, 113, 172);
+    }
+}

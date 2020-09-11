@@ -1,0 +1,327 @@
+*{
+    box-sizing: border-box;
+}
+
+
+/* ----- CSS NAV ----- */
+nav {
+    margin-bottom: 150px;
+}
+nav#nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+ul.menu1 {
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    background-image: linear-gradient(to right, white, #87ccdc, white, #87ccdc);
+    font-size:22px;
+    box-shadow:1px 2px 3px black;
+    list-style-type: none;
+    display: flex;
+    width: 100%;
+    margin-top: 10px;
+    margin: 0;
+    padding: 0;
+}
+ul.menu1 > li {
+    width : 25%;
+    border-right:2px solid black;
+    text-align: center;
+    font-weight:bold;
+}
+ul.menu1 > li:last-child {
+    border-right:none;
+}
+ul.menu1 > li > a {
+    display : block;
+    padding: 15px 20px;
+    color : black;
+}
+ul.menu1 > li > a:hover {
+    background-image: linear-gradient(to right, white, rgba(100, 233, 100, 0.815),rgba(96, 198, 238, 0.473), white);
+    text-decoration:none;
+}
+ul.mien a {
+    text-decoration: none;
+}
+ul.mien > li {
+    list-style-type : none;
+}
+.mien{
+    width: 24.5%;
+    display: none !important;
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.5s;
+}
+.amthuc:hover .mien {
+    display: block !important;
+    opacity: 1;
+    visibility: visible;
+}
+ul.mien{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+ul.mien > li {
+    text-align: center;
+    background-color:white;
+}
+ul.mien >li > a {
+    display: block;
+    padding: 4px 17px;
+    color: black;
+}
+ul.mien >li >a:hover{
+    background-image: linear-gradient(to right, rgba(255, 192, 203, 0.534), #c6e4eb);
+    text-decoration: none;
+    font-size: 2vw;
+}
+
+
+/* ----- ẢNH NỀN TRƯỢT ----- */
+#demo {
+    width: 100%;
+}
+div.carousel-item > img {
+    width:100%;
+    margin-top:30px;
+}
+div.anhtruot {
+    margin-bottom: 10px;
+}
+
+
+
+/* ----- GO TO TOP ----- */
+
+#a {
+    display: block;
+    padding: 2px 5px 8px 5px;
+    border-radius: 20px;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    color: black;
+    text-decoration: none;
+    font-size: 25px;
+    text-align: center;
+    animation: doimaunen 1s infinite;
+    
+}
+
+
+
+/* ----- SECTION ----- */       
+
+section {
+    margin-top: 10px;
+    background-color: rgba(255, 182, 193, 0.13);
+}
+div.content{
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+}
+
+div.left{
+    width: 20%;
+    
+}
+div.right{
+    width: 80%;
+    margin-left: 20px;
+    display: flex;
+    flex-wrap: wrap;  
+}
+    
+
+
+/* ----- CLASS LEFT ----- */
+ul.menu2 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    width:100%;
+    display: block;
+    padding: 2px 9px;
+    position: fixed;
+    left:2px;
+    top: 25%;
+    width: 18%;
+}
+
+ul.menu2 > li > a {
+    display: block;
+    padding: 10px 8px;
+    text-decoration: none;  
+    font-weight: bold;
+    font-size: 25px;
+    color: black;
+    border: 1px solid black;
+    box-shadow: 3px 4px 3px black;
+    margin-bottom: 15px;
+    animation: doimau 2s infinite;
+}
+ul.menu2 > li > a:hover {
+    background: white !important;
+}
+
+div.monan {
+    width: 19%;
+    border: 1px solid black;
+    margin: 5px;
+    height: 250px;
+    text-align: center;
+    margin-top: 20px;
+}
+div.monan > p > a {
+    color: black;
+}
+div.monan > p > a:hover {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+/* ----- CLASS RIGHT -----*/
+
+div.right {
+    display: block;
+}
+div.right > h3 {
+    color:black;
+    display: block;
+    border: 1px solid black;
+    text-align: center;
+    padding:5px;
+    font-weight: bold;
+    font-size: 25px;
+    box-shadow: 3px 4px 3px black;
+    border-radius: 20px;
+    width: 30%;
+    margin: 90px 0 20px 35%;
+}
+div.sang, div.toi, div.le {
+    display: flex;
+    flex-wrap: wrap;
+}
+div.sang, div.toi {
+    margin-bottom: 15px;
+}
+
+figure > img {
+    width: 100%;
+    transition: transform 2s;
+}
+figure > img:hover {
+    transform: scale(0.8, 0.8);
+}
+figcaption {
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 10px 0 10px 0;
+}
+div.monan > p > a {
+    font-style: italic;
+    font-weight: bold;
+}
+div.monan > p > a:hover {
+    color: red;
+}
+
+/* ----- FOOTER ----- */ 
+footer{
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background: linear-gradient(rgba(255, 192, 203, 0.534), #c6e4eb);
+    margin-top: 50px;
+    padding-top:30px;
+}
+div.chan {
+    padding: 20px;
+}
+
+div.chan > h4 {
+    font-weight: bold;
+    font-size: 25px;
+    animation: doimauchu 1.5s infinite;
+}
+div.contact {
+    display: flex;
+}
+div.contact > div {
+    width: 50%;
+}
+div.contact > div > textarea {
+    width: 80%;
+}
+ul.social {
+    padding: 0;
+}
+ul.social > li  {
+    list-style-type: none;
+    font-weight: bold;
+}
+ul.social > li a {
+    color: black;
+}
+ul.social > li a:hover {
+    color: blue;
+    text-decoration: none;
+}
+
+input[type=submit] {
+    background-color:black;
+    padding: 8px;
+    color:white;
+    border-radius: 5px;
+    border: 1px solid black;
+    width: 80px;
+}
+div.feedback{
+    text-align: center;
+}
+div p#gui {
+    text-align: center;
+}
+
+@keyframes doimauchu {
+    from {
+        color: red;
+    }
+    to {
+        color: black;
+    }
+    to {
+        color: blue;
+    }
+}
+
+@keyframes doimaunen {
+    from {
+        
+        background-color: #87ccdc;
+    }
+    to {
+        background-color: pink;
+    }
+}
+
+@keyframes doimau {
+    from {
+        background-image: linear-gradient(to right, rgba(236, 166, 193, 0.473),white, white,#87ccdc)
+    }
+    to {
+        background-image: linear-gradient(to right,  #87ccdc,white,white,rgba(236, 166, 193, 0.473))
+       
+    }
+}
