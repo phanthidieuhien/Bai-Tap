@@ -7,7 +7,7 @@
 }
 /* ----- CSS HEADER ---- */
 header {
-    background-image: url(/images/vietnam.jpeg);
+    background-image: url(../images/vietnam.jpeg);
     background-repeat: no-repeat; 
     background-size: 100%;
    
@@ -202,7 +202,7 @@ div.con > p {
 
 footer{
     padding-top:30px;
-    background-image: url(/images/bg-ft.jpg);
+    background-image: url(../images/bg-ft.jpg);
     background-repeat: no-repeat;  
     background-size: 100%;
     height: 330px;

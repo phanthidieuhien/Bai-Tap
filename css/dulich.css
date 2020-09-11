@@ -30,10 +30,10 @@ h1.chu{
 @keyframes doiheader {
     
     from {
-        background-image: url(/images/dl1.jpg);
+        background-image: url(../images/dl1.jpg);
       }
     to {
-        background-image: url(/images/dl2.jpg);
+        background-image: url(../images/dl2.jpg);
     }
 }
 
@@ -345,64 +345,64 @@ div.place > h2 {
 }
 
 div.plc1 {
-    background-image: url("/images/mocchau2.jpg");
+    background-image: url("../images/mocchau2.jpg");
 }
 div.plc2 {
-    background-image: url("/images/yentu_quangninh.jpg");
+    background-image: url("../images/yentu_quangninh.jpg");
 }
 div.plc3 {
-    background-image: url("/images/trangan.jpg");
+    background-image: url("../images/trangan.jpg");
 }
 div.plc4 {
-    background-image: url("/images/dalat.jpg");
+    background-image: url("../images/dalat.jpg");
 }
 div.plc5 {
-    background-image: url("/images/baidinh.jpg");
+    background-image: url("../images/baidinh.jpg");
 }
 div.plc6 {
-    background-image: url("/images/tamdao.jpg");
+    background-image: url("../images/tamdao.jpg");
 }
 div.plc7 {
-    background-image: url("/images/nhatrang.jpg");
+    background-image: url("../images/nhatrang.jpg");
 }
 div.plc8 {
-    background-image: url("/images/vinhhalong.jpg");
+    background-image: url("../images/vinhhalong.jpg");
 }
 div.plc9 {
-    background-image: url("/images/danang.jpg");
+    background-image: url("../images/danang.jpg");
 }
 div.plc10 {
-    background-image: url("/images/hue.jpg");
+    background-image: url("../images/hue.jpg");
 }
 div.plc11 {
-    background-image: url("/images/hagiang.jpg");
+    background-image: url("../images/hagiang.jpg");
 }
 div.plc12 {
-    background-image: url("/images/hobabe.jpg");
+    background-image: url("../images/hobabe.jpg");
 }
 div.plc13 {
-    background-image: url("/images/hanoi.jpg");
+    background-image: url("../images/hanoi.jpg");
 }
 div.plc14 {
-    background-image: url("/images/vinhlanha.jpg");
+    background-image: url("../images/vinhlanha.jpg");
 }
 div.plc15 {
-    background-image: url("/images/phuquoc.jpg");
+    background-image: url("../images/phuquoc.jpg");
 }
 div.plc16 {
-    background-image: url("/images/sapa.jpg");
+    background-image: url("../images/sapa.jpg");
 }
 div.plc17 {
-    background-image: url("/images/mauson.jpg");
+    background-image: url("../images/mauson.jpg");
 }
 div.plc18 {
-    background-image: url("/images/condao.jpg");
+    background-image: url("../images/condao.jpg");
 }
 div.plc19 {
-    background-image: url("/images/maichau_hoabinh.jpg");
+    background-image: url("../images/maichau_hoabinh.jpg");
 }
 div.plc20 {
-    background-image: url("/images/chophienbacha.jpg");
+    background-image: url("../images/chophienbacha.jpg");
 }
 
 
@@ -428,7 +428,7 @@ div.plc20 {
  footer{
     margin-bottom:35px;
     padding-top:50px;
-    background-image: url(/images/bg-dl.jpg);
+    background-image: url(../images/bg-dl.jpg);
     background-repeat: no-repeat;  
     background-size: 100%;
     height: 270px;
